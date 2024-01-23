@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     <style>
         .color-common{
@@ -388,39 +389,116 @@
     </section>           
                                           <!-- Form Section  -->
 
-    <section class="my-24"> 
-        <div class="flex flex-col lg:flex-row justify-between">
-            <div class="w-auto border-2">
-fvxzbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+    <section class="my-24 lg:max-h-[765px]"> 
+        <div class="flex flex-col items-center lg:items-start lg:flex-row justify-between lg:h-[760px]">
+            <div class=" border rounded-xl p-8 lg:p-12 space-y-12">
+                <div class="w-[375px] bg-[#FDDB5F1A] p-8 rounded-2xl">
+                    <img class="mb-5" src="Images/Group 1171275317.png" alt="">
+                    <p class="color-common">Phone Number : </p>
+                    <h5 class="text-base font-extrabold">(+62) 123-321-543</h5>
+                </div>
+                <div class="w-[375px] bg-[#FDDB5F1A] p-8 rounded-xl">
+                    <img class="mb-5" src="Images/Group 1171275318.png" alt="">
+                    <p class="color-common">Email : </p>
+                    <h5 class="text-base font-extrabold">hockeys@support.com</h5>
+                </div>
+                <div class="w-[375px] bg-[#629CF31A] p-8 rounded-xl">
+                    <img class="mb-5" src="Images/Group 1171275321.png" alt="">
+                    <p class="color-common">Location :  </p>
+                    <h5 class="text-base font-extrabold">152/1 Mohakhali Wireless Gate</h5>
+                </div>
             </div>
-            <div class="w-3/5 border-2 grid grid-cols-1 lg:grid-cols-2">
-                <div class="border-2">
-                    <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
+
+            <!-- form part -->
+            <div class="w-full p-6 lg:w-3/5 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:p-6">
+                <div class="col-span-2 lg:col-span-1">
+                    <label class="text-xl font-bold" for="Name">Your Name</label>
+                    <input type="text" placeholder="Type here" class="border-0 mt-2 color-common bg-[#13131805] input input-bordered input-md w-full " />
                 </div>
-                <div class="border-2">
-                    <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
+                <div class="col-span-2 lg:col-span-1">
+                    <label class="text-xl font-bold" for="">Your Email</label>
+                    <input type="text" placeholder="Type here" class="border-0 mt-2 color-common bg-[#13131805] input input-bordered input-md w-full" />
                 </div>
-                <div class="border-2">
-                    <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
+                <div class="col-span-2 lg:col-span-1">
+                    <label class="text-xl font-bold" for="">Subject</label>
+                    <input type="text" placeholder="Type here" class="border-0 mt-2 color-common bg-[#13131805] input input-bordered input-md w-full" />
                 </div>
-                <div class="border-2">
-                    <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
+                <div class="col-span-2 lg:col-span-1">
+                    <label class="text-xl font-bold" for="">Phone Number</label>
+                    <input type="text" placeholder="Type here" class="border-0 mt-2 color-common bg-[#13131805] input input-bordered input-md w-full" />
                 </div>
-                <div class="col-span-2 border-2">
-                dsfsd
+                <div class="col-span-2 lg:h-[415px]">
+                    <label class="text-xl font-bold" for="message">Message</label>
+                    <textarea placeholder="Write your message" class="border-0 mt-2 color-common bg-[#13131805] textarea textarea-bordered textarea-lg w-full lg:h-[385px]" ></textarea>
                 </div>
-                 
-              
+                <div class="col-span-2">
+                    <button class="btn w-full bg-[#FF4240] text-[#FFF] p-4 hover:bg-[#a61f1c]">Send Message</button>
+                </div> 
             </div>
         </div>  
-
     </section>                                     
-                      
+                             <!-- Form section end   -->
      
+                        <!-- Social Media section start -->
+    <section class="my-24">
+          <div class="text-center py-10 space-y-5 bg-[#1313180a] h-[150px] lg:mx-0 mx-6 rounded-xl">
+            <h3 class="font-extrabold text-2xl">Social Media</h3>
+            <div class="space-x-10">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+    </section>                        
     </main>
-    <footer>
+    <footer class="lg:mt-24 pb-12 lg:pb-32 bg-[#131318]">
+        <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-10 lg:gap-32 container max-w-[1170px] mx-auto">
+
+                              <!-- Footer First -->
+           <div class="col-span-2 lg:h-[400px] text-white text-left lg:space-y-6 space-y-4 pt-8 lg:pt-28">
+               <h3 class="text-2xl text-center lg:text-left lg:text-3xl font-extrabold">Get In Touch</h3>
+               <p class="lg:text-left text-center text-base font-medium text-[#FFFFFF99]">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+               <div class="flex justify-center lg:justify-start">
+                <img src="Images/inbox (1).png" alt="">
+                <p class="text-2xl font-medium text-[#FFFFFFCC] pl-2">hockeys@support.com</p>
+               </div>
+               <div class="flex justify-center lg:justify-start pb-5">
+                <img src="Images/call.png" alt="">
+                <p class="text-2xl font-medium text-[#FFFFFFCC] pl-2">(+62) 123-321-543</p>
+               </div> 
+           </div>
+
+                                 <!-- Footer Second -->
+           <div class="flex col-span-2 lg:gap-32 lg:h-[400px] justify-around lg:pt-28">
+                <div class="text-white space-y-6">
+                    <h4 class="text-2xl font-bold">Company</h4>
+                    <p class="text-base font-medium text-[#FFFFFF99]">About us</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Leadership</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Careers</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">News & Article</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Legal Notice</p>
+                </div>
+                <div class="text-white space-y-6">
+                    <h4 class="text-2xl font-bold">Support</h4>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Help Center</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">FAQ</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Ticket Support</p>
+                    <p class="text-base font-medium text-[#FFFFFF99]">Contact Us</p>
+                </div>
+            </div>
+
+            <div class="text-white text-center lg:text-left space-y-6 lg:pt-28">
+                <h4 class="text-2xl font-bold">Services</h4>
+                <p class="text-base font-medium text-[#FFFFFF99]">Academy</p>
+                <p class="text-base font-medium text-[#FFFFFF99]">Group Lesson</p>
+                <p class="text-base font-medium text-[#FFFFFF99]">Private Lesson</p>
+                <p class="text-base font-medium text-[#FFFFFF99]">Hockeys for kids</p>
+                <p class="text-base font-medium text-[#FFFFFF99]">Hockeys for Adult</p>
+            </div>
+
+        </div>
 
     </footer>
-    
 </body>
 </html>
