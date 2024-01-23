@@ -28,7 +28,7 @@
 
                        <!-- Navbar -->
     <header class="container max-w-[1170px] mx-auto">
-        <div class="navbar bg-base-100">
+        <div class="navbar lg:px-0 bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -42,22 +42,22 @@
                     <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl">Hockey’s</a>
+              <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li><a><span class="text-base font-bold text-[#FF4240]">Home</span></a></li>
+                <li><a class="text-base">About</a></li>
+                <li><a class="text-base">Pages</a></li>
+                <li><a class="text-base">Blog</a></li>
+                <li><a class="text-base">Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end gap-6">
-                <img src="Images/search.png" alt="">
-              <a class="btn">Get Ticket</a>
+            <div class="navbar-end gap-6 items-center pr-2 lg:pr-0 mt-5">
+                <img class="lg:block hidden" src="Images/search.png" alt="">
+              <a class="btn text-base lg:text-xl text-[#FFF] bg-[#FF4240] lg:font-bold lg:px-6">Get Ticket</a>
             </div>
-          </div>
+        </div>
                             <!-- Navbar end -->
 
                               <!-- Carousel -->
@@ -94,8 +94,8 @@
             </div>
           </div>
           <div class="mx-auto w-[370px] h-[135px] lg:h-[165px] lg:w-[565px] bg-black text-white flex flex-col justify-center lg:items-left p-4 lg:p-8 rounded-xl lg:rounded-2xl gap-4 lg:absolute lg:top-[385px] lg:right-[30px]">
-            <h3 class="lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
-            <p class="text-sm lg:text-base text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquambr <br> turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            <h3 class="lg:text-2xl text-xl font-extrabold">Meet all the heroes from the field</h3>
+            <p class="text-sm lg:text-base text-[#FFFFFF99]">Discover Extraordinary Minds: Connecting with the Heroes Shaping Every Field for a Transformative Encounter</p>
           </div>
     </section>
                                      <!-- Carousel End -->
@@ -108,7 +108,7 @@
         <section>
            <div class="text-center mt-16 lg:mt-24">
             <h2 class="text-2xl lg:text-4xl font-bold lg:font-extrabold">Professional Hockeys Club</h2>
-            <p class="mt-6 w-4/5 lg:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            <p class="mt-6 w-4/5 lg:w-1/2 mx-auto">Pinnacle of Skill and Team Spirit: Professional Hockey Club, Where Passion and Precision Unite on Ice.</p>
            </div>
         </section>
                             <!-- After Professional Hockeys Club   -->
@@ -149,41 +149,47 @@
      <section class="my-24">
         <div class="text-center">
             <h2 class="text-2xl font-bold lg:text-4xl lg:font-extrabold">Program Sections</h2>
-            <p class="text-sm text-[#13131899] lg:text-base font-medium w-4/5 lg:w-2/3 mx-auto mt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+            <p class="text-sm text-[#13131899] lg:text-base font-medium w-4/5 lg:w-2/3 mx-auto mt-5">Explore Elite Training, Thrilling Matches, Community Outreach: Professional Hockey Club's Diverse Program Sections Ignite Passion and Excellence.</p>
         </div>
      </section>        
                             <!-- After Program Sections -->
-    <section class=" relative hide">
+    <section class=" ">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-            <div class="border-2">
-                <img src="Images/2.png" alt="">
-                <div class="bg-gray-700 text-[#FFF] w-[490px] p-4 absolute left-[10px] top-[170px]">
-                    <h4>Junior Program</h4>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                        <button class="btn btn-active bg-orange-800 border-0">Register Now!</button>
+            <div class="lg:px-0 px-4">
+                <img class="lg:h-auto h-[245px]" src="Images/2.png" alt="">
+                <div class="text-[#FFF] w-[490px] p-4 space-y-4 absolute lg:-translate-y-60 -translate-y-52 pl-7">
+                    <h4 class="text-2xl lg:text-3xl font-extrabold">Junior Program</h4>
+                    <p class="text-sm lg:text-base text-left w-4/5 lg:w-full text-[#FFF]">Nurturing Future Stars: Professional Hockey Club's Junior Program Sections Focus on Skill Development, Sportsmanship, and Lifelong Team Bonds.</p>
+                    <button class="btn btn-active lg:text-xl lg:font-bold text-[#FFF] px-6 lg:px-8 bg-[#FF4240] border-0">Register Now!</button>
                 </div>
             </div>
-            <div class="border-2">
-                <img src="Images/3.png" alt="">
-                <div class="bg-gray-700 text-[#FFF] w-[490px] p-4 absolute left-[605px] top-[170px] space-y-4">
-                   <h4>Teenager Program</h4>
-                   <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="btn btn-active bg-orange-800 border-0">Register Now!</button>
+            <div class="lg:px-0 px-4">
+                <img class="lg:h-auto h-[245px]" src="Images/3.png" alt="">
+                <div class="text-[#FFF] w-[490px] p-4 space-y-4 absolute lg:-translate-y-60 -translate-y-52 pl-7">
+                    <h4 class="text-2xl lg:text-3xl font-extrabold">Teenager Program</h4>
+                    <p class="text-sm lg:text-base text-left w-4/5 lg:w-full text-[#FFF]">Fostering Growth and Passion: Professional Hockey Club's Teenager Program Sections Cultivate Skills, Leadership, and Lifelong Connections.</p>
+                    <button class="btn btn-active lg:text-xl lg:font-bold text-[#FFF] px-6 lg:px-8 bg-[#FF4240] border-0">Register Now!</button>
                 </div>
             </div>
-            <div class="border-2 lg:col-span-2">
-                <img src="Images/4.png" alt="">
-                <div class="bg-gray-700 text-[#FFF] w-[525px] p-4 absolute left-[10px] top-[600px] space-y-4">
-                  <h4 class="text-2xl font-extrabold">Professional Program</h4>
-                  <p class="text-base font-medium text-[#FFF]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="btn btn-active text-xl font-bold text-[#FFFFFF] px-6 bg-[#FF4240] border-0">Register Now!</button>
+            <div class="lg:col-span-2 lg:px-0 px-4">
+                <img class="lg:h-auto h-[245px]" src="Images/4.png" alt="">
+                <div class="text-[#FFF] w-[525px] p-4 absolute lg:-translate-y-60 -translate-y-56 pl-7 space-y-4">
+                  <h4 class="text-2xl lg:text-3xl font-extrabold">Professional Program</h4>
+                  <p class="text-sm lg:text-base text-left w-4/6 lg:w-full text-[#FFF]">Elite Excellence Unleashed: Professional Hockey Club's Professional Program Sections Elevate Skills, Strategy, and Team Dynamics for Unparalleled Performance.</p>
+                    <button class="btn btn-active lg:text-xl lg:font-bold text-[#FFF] px-6 lg:px-8 bg-[#FF4240] border-0">Register Now!</button>
                 </div>
             </div>
         </div>
     </section>
+                                 <!-- Our new product heading -->
+    <section class="my-24">
+        <div class="text-center space-y-6">
+            <h2 class="text-4xl font-extrabold">Our New Products</h2>
+            <p class="color-common font-medium">Innovate the Game: Professional Hockey Club's New Products Redefine Equipment, Apparel, <br> and Fan Merchandise for Unmatched Performance and Style. </p>
+        </div>
+    </section>
+
+
                                     <!-- Our new product -->
     <section class="lg:mx-auto mx-5">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -207,8 +213,8 @@
                        <p class="color-common">200</p>
                        </div>
                     </div>
-                    <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <h4 class="text-xl font-extrabold">World Cup Best Jacket</h4>
+                    <p class="color-common">World Cup's Finest: The Ultimate Jacket, <br> Unrivaled in Style.</p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -240,8 +246,8 @@
                        <p class="color-common">200</p>
                        </div>
                     </div>
-                    <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <h4 class="text-xl font-extrabold">World Cup Best Football</h4>
+                    <p class="color-common"> World Cup's Supreme Football, <br> Unmatched in Performance</p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -273,8 +279,9 @@
                        <p class="color-common">200</p>
                        </div>
                     </div>
-                    <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <h4 class="text-xl font-extrabold">Beat Cap In World Cup Time
+                    </h4>
+                    <p class="color-common">Top Off Triumph: World Cup's Beat Cap, <br>  Stylish Victory Statement </p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -306,8 +313,8 @@
                        <p class="color-common">200</p>
                        </div>
                     </div>
-                    <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <h4 class="text-xl font-extrabold">World Cup Football Jersey</h4>
+                    <p class="color-common"> World Cup Football Jersey, Symbolizing <br> Pride and Excellence.</p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -339,8 +346,8 @@
                        <p class="color-common">200</p>
                        </div>
                     </div>
-                    <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <h4 class="text-xl font-extrabold">World Cup Football Helmet</h4>
+                    <p class="color-common">Guardian of Glory: World Cup Football <br> Helmet, Unmatched Protection.</p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -373,7 +380,7 @@
                        </div>
                     </div>
                     <h4 class="text-xl font-extrabold">World Cup Flags Football</h4>
-                    <p class="color-common">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                    <p class="color-common">Nations Unite: World Cup Flags Football, <br> Global Sports Harmony.</p>
                     <div class="flex flex-col lg:flex-row ">
                         <h5 class="text-[#FF4240] text-lg font-extrabold pr-2">Price - $22.00</h5>
                         <div class="flex flex-col lg:flex-row lg:my-0 my-3 ">
@@ -386,7 +393,86 @@
                 </div>
             </div>
         </div>
-    </section>           
+    </section>  
+                          <!-- Clients Question Section -->
+   
+    <section class="my-24">
+        <div class="text-center space-y-6 lg:p-0 p-6">
+            <h2 class="text-4xl font-extrabold">Clients Question</h2>
+            <p class="color-common font-medium"> Clients Question for Insight, Solutions, and Collaboration, Igniting Meaningful Conversations to <br> Elevate Experiences and Achieve Success.</p>
+        </div>
+    </section>
+                      <!-- After Clients Question Section -->
+    <section class="my-24">
+        <div class="border-2 rounded-2xl flex flex-col lg:flex-row gap-20 lg:gap-6 justify-between lg:p-5 p-6">
+            <div>
+                <img class="h-1/2 lg:h-full" src="Images/11.png" alt="">
+            </div>
+
+            <div class="space-y-6 lg:space-y-2">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                    <p>Our Equipment, Engineered for Excellence, Empowering Performance, Ensuring Reliability in Every Endeavor, Setting the Standard Worldwide.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                    </div>
+                </div> 
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Ski Touring
+                    </div>
+                    <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                    </div>
+                </div> 
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Booking
+                    </div>
+                    <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+                                    <!-- Get In Touch Section  -->
+
+    <section class="my-24">
+        <div class="text-center space-y-6">
+            <h2 class="text-4xl font-extrabold">Get In Touch</h2>
+            <p class="color-common font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+    </section>
+    
                                           <!-- Form Section  -->
 
     <section class="my-24 lg:max-h-[765px]"> 
